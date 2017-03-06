@@ -1,0 +1,9 @@
+SELECT Dname as DEPTPARTMENT_NAME,COUNT(*)as NUMBER_OF_EMPLOYEE FROM Employee a,Department b where a.Deptno=b.Deptno group by Dname
+
+
+
+
+
+
+
+
